@@ -75,12 +75,13 @@
 #### VSCode Settings & Extensions
 
 * In VSCode > Manage > Settings > Search "wrap" > Editor: Word Wrap to "on"
-* Auto Close Tag
-* Auto Rename Tag
-* Bracket Pair Colorizer 2
-* Live Server
-* Markdown Preview Github Styling
-* Prettier (Manage > Settings > Search "Formatter" > Editor: Default Formatter to "esbenp.prettier-vscode"
+* __Auto Close Tag__ by Jun Han
+* __Auto Rename Tag__ by Jun Han
+* __Bracket Pair Colorizer 2__ by CoenraadS
+* __Live Server__ by Ritwick Dey
+* __Markdown Preview Github Styling__ by Matt Bierner
+* __Prettier__ by Prettier (Manage > Settings > Search "Formatter" > Editor: Default Formatter to "esbenp.prettier-vscode")
+* __WASDMap__ by Michael Romer
 
 ## (Optional) Theme for a Cyberpunk look
 
