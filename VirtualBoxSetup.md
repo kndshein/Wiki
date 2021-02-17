@@ -5,6 +5,7 @@
 #### [Install Oracle VM VirtualBox Manager](https://www.virtualbox.org/)
 
 #### Create Virtual Machine on VirtualBox
+
 1. Type: Linux, Version: Ubuntu (64-bit)
 2. Memory size: 12,288 MB
 3. Create a virtual hard disk now
@@ -17,6 +18,7 @@
 10. Turn on Virtual Machine
 
 #### [Install Xubuntu](http://www.fixedbyvonnie.com/2015/07/how-to-setup-virtualbox-in-windows/)
+
 1. "Install Xubuntu"
 2. "Download updates while installing Xubuntu", leave "Install third-party software for..." unchecked
 3. "Erase disk and install Xubuntu"
@@ -25,6 +27,7 @@
 6. Prompt to press enter after removing medium - just press enter
 
 #### [Set Up Xubuntu](http://www.fixedbyvonnie.com/2015/07/how-to-setup-xubuntu-linux-in-virtualbox-step-by-step/)
+
 1. Login
 2. VirtualBox Menu > Devices > "Insert Guest Additions CD Image"
 3. Open Terminal Emulator
@@ -40,15 +43,18 @@
 ## Git Shit
 
 #### Install git
-* `sudo apt install git`
+
+- `sudo apt install git`
 
 #### Git Configs
-* `git config --global user.name "<Name Here>"
-* `git config --global user.email "<email@email.com>"
-* (optional) `git config --global init.defaultBranch main`
-* `git config --list --show-origin` to list the configs
+
+- `git config --global user.name "<Name Here>"
+- `git config --global user.email "<email@email.com>"
+- (optional) `git config --global init.defaultBranch main`
+- `git config --list --show-origin` to list the configs
 
 #### [Git SSH Keys](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
 1. Open Git Bash
 2. `cd ~`
 3. `ssh-keygen -t ed25519 -C "your_email@example.com"`
@@ -58,7 +64,7 @@
 7. `ls` > `cat <ssh filename>.pub`
 8. Copy the generated code in its entirety
 9. Go to [Github](https://www.github.com) > Settings > SSH and GPG keys > New SSH Key
-9. Paste the code > Add SSH Key
+10. Paste the code > Add SSH Key
 
 ## Node.js and npm
 
@@ -74,21 +80,25 @@
 
 #### VSCode Settings & Extensions
 
-* In VSCode > Manage > Settings > Search "wrap" > Editor: Word Wrap to "on"
-* __Auto Close Tag__ by Jun Han
-* __Auto Rename Tag__ by Jun Han
-* __Bracket Pair Colorizer 2__ by CoenraadS
-* __Live Server__ by Ritwick Dey
-* __Markdown Preview Github Styling__ by Matt Bierner
-* __Prettier__ by Prettier (Manage > Settings > Search "Formatter" > Editor: Default Formatter to "esbenp.prettier-vscode")
-* __WASDMap__ by Michael Romer
+- In VSCode > Manage > Settings > Search "wrap" > Editor: Word Wrap to "on"
+- **Auto Close Tag** by Jun Han
+- **Auto Rename Tag** by Jun Han
+- **Better Comments** by Aaron Bond
+- **Bracket Pair Colorizer 2** by CoenraadS
+- **Live Server** by Ritwick Dey
+- **Markdown Preview Github Styling** by Matt Bierner
+- **Prettier** by Prettier
+  - Manage > Settings > Search "Formatter" > Editor: Default Formatter to "esbenp.prettier-vscode"
+  - Manage > Settings > Search "Format on Save" > Check the box
+- **WASDMap** by Michael Romer
 
 ## (Optional) Theme for a Cyberpunk look
 
 #### GNOME Themes
-* ["Candy" Icon Pack](https://www.xfce-look.org/p/1305251/)
-* ["Sweet" Folder Icon Pack](https://www.opendesktop.org/p/1284047/) (to be used in conjunction to "Candy" Icon Pack)
-* ["Sweet" Theme](https://www.gnome-look.org/p/1253385/)
+
+- ["Candy" Icon Pack](https://www.xfce-look.org/p/1305251/)
+- ["Sweet" Folder Icon Pack](https://www.opendesktop.org/p/1284047/) (to be used in conjunction to "Candy" Icon Pack)
+- ["Sweet" Theme](https://www.gnome-look.org/p/1253385/)
 
 1. Extract the folders and put the icons and theme folders in `.icons` and `.themes` folders in ~ directory respectively
 2. Xubuntu Menu > Settings > Appearance > Style > "Sweet-Dark"
@@ -96,12 +106,14 @@
 4. Xubuntu Menu > Settings > Windows Manager > Style > "Sweet-Dark"
 
 #### VSCode Theme
-1. Search for __Synthwave 84__ by Robb Owen in Extensions
+
+1. Search for **Synthwave 84** by Robb Owen in Extensions
 2. Enable the theme
 3. Run VSCode as superuser
 4. Ctrl + Shift + P > "Enable Neon Colors"
 
 #### Google Chrome Theme
+
 1. Settings > More Tools > Extensions
 2. Hamburger Menu > "Open Chrome Web Store"
-3. Search for __Cyberpunk__ by Angus
+3. Search for **Cyberpunk** by Angus
