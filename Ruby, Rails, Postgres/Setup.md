@@ -1,4 +1,4 @@
-## Ruby on Rails
+## Ruby on Rails Setup
 
 #### rbenv
 1. Check if rbenv is installed using `rbenv`. If installed upgrade using `git -C "$(rbenv root)"/plugins/ruby-build pull`
@@ -46,7 +46,7 @@
       - Alternatively, try `sudo npm uninstall yarn` and reinstall it by running `sudo npm install --global yarn`
       - If there are still errors, [godspeed](https://stackoverflow.com/questions/40317578/yarn-global-command-not-working)
 
-## Postgres
+## Postgres Setup
 
 #### [Install Postgres](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart)
 

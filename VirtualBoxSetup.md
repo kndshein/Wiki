@@ -96,7 +96,7 @@
 4. Xubuntu Menu > Settings > Windows Manager > Style > "Sweet-Dark"
 
 #### VSCode Theme
-1. Search "Synthwave 84" in Extensions
+1. Search for __Synthwave 84__ by Robb Owen in Extensions
 2. Enable the theme
 3. Run VSCode as superuser
 4. Ctrl + Shift + P > "Enable Neon Colors"
@@ -104,4 +104,4 @@
 #### Google Chrome Theme
 1. Settings > More Tools > Extensions
 2. Hamburger Menu > "Open Chrome Web Store"
-3. Search for "Cyberpunk by Angus"
+3. Search for __Cyberpunk__ by Angus
