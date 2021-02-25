@@ -30,7 +30,7 @@
 #### Install Rails
 
 1. `sudo gem install rails --pre`
-   - if error'd, in `~` directory, run `sudo apt update` and `sudo apt install ruby-full`
+   - run `sudo apt update` and `sudo apt install ruby-full`
 1. `rbenv rehash`
 1. `rails -v` to check the version of rails and to confirm if it worked
 
@@ -62,7 +62,7 @@
 
 1. `sudo su postgres`
 1. `psql`
-1. `CREATE USER <YourLinuxUsername> WITH SUPERUSER PASSWORD '<YourPassword>'; (!important: make sure it's single quotes, and end the command with `;`)
+1. `CREATE USER <YourLinuxUsername> WITH SUPERUSER PASSWORD '<YourPassword>';` (!important: make sure it's single quotes, and end the command with `;`)
 1. `CREATE DATABASE <YourLinuxUsername>;` (!important: again, make sure the command line ends with `;`)
 1. `\q`
 1. `exit`
