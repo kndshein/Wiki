@@ -1,7 +1,7 @@
 ## Creating a Ruby on Rails Project with PostgreSQL
 
 1. `rails new <app-name-here> --api -d postgresql --skip-git`
-1. in database.yml
+1. In database.yml
 
    ```
    default: &default
@@ -12,7 +12,8 @@
       password: <password>
 
    production:
-   # replace all code with following line
+      <<: *default
+      # replace all code with following line
       url: <%= ENV['MY_APP_DATABASE_URL'] %>
    ```
 
@@ -54,4 +55,11 @@
 
 #### Misc Commands
 
-`rails g scaffold album name:string release_date:string`
+`rails g scaffold <tablename> <columnname>:<typeofdata>` e.g. `rails g scaffold album name:string`
+
+#### Deploying to Heroku
+
+1. In database.yml, change `MY_APP_DATABASE_URL` to `DATABASE_URL`
+2. Push to GitHub
+3. Connect Heroku to GitHub
+4. In Heroku > More > Run Console > `rails db:migrate` then `rails db:seed`

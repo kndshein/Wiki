@@ -30,7 +30,7 @@
 #### Install Rails
 
 1. `sudo gem install rails --pre`
-   - run `sudo apt update` and `sudo apt install ruby-full`
+   - if error, run `sudo apt update` and `sudo apt install ruby-full`
 1. `rbenv rehash`
 1. `rails -v` to check the version of rails and to confirm if it worked
 
