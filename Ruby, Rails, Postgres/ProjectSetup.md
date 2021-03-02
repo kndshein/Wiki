@@ -1,4 +1,4 @@
-## Creating a Ruby on Rails Project with PostgreSQL
+## Creating a Ruby on Rails Backend with PostgreSQL
 
 1. `rails new <app-name-here> --api -d postgresql --skip-git`
 1. In database.yml

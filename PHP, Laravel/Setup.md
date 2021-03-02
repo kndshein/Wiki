@@ -4,6 +4,7 @@ sudo apt install software-properties-common
 sudo add-apt-repository ppa:ondrej/php
 sudo apt install php8.0
 
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-20-04
 cd ~
 curl -sS https://getcomposer.org/installer -o composer-setup.php
 
