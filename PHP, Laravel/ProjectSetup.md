@@ -1,4 +1,4 @@
-## Creating a Laravel Backend with PostgreSQL
+## [Creating a Laravel Backend with PostgreSQL](https://dev.to/alexmercedcoder/hello-world-laravel-101-hdd)
 
 1. `composer create-project laravel/laravel <app-name-here>`
 1. `php artisan serve` and check `localhost:8000` on a browser to see if the host is working
@@ -32,7 +32,7 @@
 #### Deploying on Heroku
 
 1. Create a file named `Procfile` (with no file extention) in the parent Laravel foldier.
-1. Type web: vendor/bin/heroku-php-apache2 public/ into the `Procfile`
+1. Type `web: vendor/bin/heroku-php-apache2 public/` into the `Procfile`
 1. Commit and push the repo.
 1. Connect the GitHub Repo to Heroku
 1. Turn on Automatic Deploy and trigger a manual deploy
