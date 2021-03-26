@@ -1,7 +1,7 @@
 ## Creating a Ruby on Rails Backend with PostgreSQL
 
 1. `rails new <app-name-here> --api -d postgresql --skip-git`
-1. In database.yml
+1. In /config/database.yml
 
    ```
    default: &default
