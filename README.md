@@ -16,3 +16,5 @@
 #### Links to-do
 
 1. https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
+
+2. https://dev.to/rajeshroyal/page-not-found-error-on-netlify-reactjs-react-router-solved-43oa
