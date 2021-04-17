@@ -59,7 +59,7 @@
     app.use(express.urlencoded({ extended: false }));
     app.use(express.json());
 
-    // Routes
+    // Routers
     app.get("/", (req, res) => {
         res.json({
             status: 200,
