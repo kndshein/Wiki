@@ -105,3 +105,10 @@
 
    module.exports = mongoose;
    ```
+
+4. In `.env` file:
+
+   ```
+    MONGODBURI=<insertMongoDBConnectionhere>
+    mongodb+srv://<username>:<password>@cluster0.u1tmv.mongodb.net/<databasename>?retryWrites=true&w=majority
+   ```
