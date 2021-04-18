@@ -115,7 +115,22 @@
 
 #### Model and Seeding
 
-1. Example model schema:
+1. Create `models` folder in root folder
+
+2. Create `<filename>.js`
+3. In created file, import and export the model schema:
+
+   ```
+   const mongoose = require("../db/connection");
+   const Schema = mongoose.Schema;
+
+   // Model Schema goes here
+
+   const ItemModel = mongoose.model("Item", itemSchema);
+   module.exports = ItemModel;
+   ```
+
+4. Example model schema:
 
    ```
     const mongoose = require("../db/connection");
@@ -132,4 +147,74 @@
 
     const ItemModel = mongoose.model("Item", itemSchema);
     module.exports = ItemModel;
+   ```
+
+#### Controller and Routes
+
+1. Create `controllers` folder in root folder
+2. Create `<filename>.js`
+3. In created file, import and export the model schema:
+
+   ```
+   const express = require("express");
+   const router = express.Router();
+
+   // Controller goes here
+
+   module.exports = router;
+   ```
+
+4. Example controller:
+
+   ```
+   const express = require("express");
+    const router = express.Router();
+
+    const Item = require("../models/item.js");
+
+    router.get("/", async (req, res) => {
+        Item.find({})
+            .then((allItems) => {
+            res.json(allItems);
+            })
+            .catch((err) => res.json({ status: 400, err: err }));
+    });
+
+    module.exports = router;
+   ```
+
+5. In `index.js` import the controller
+
+   ```
+   const <routerName> = require("<path to controller>");
+   app.use("/<slug>", <routerName>);
+   ```
+
+6. Example `index.js`:
+
+   ```
+   require("dotenv").config();
+
+   const express = require("express");
+   const cors = require("cors");
+   const app = express();
+   const PORT = process.env.PORT || 4000;
+   const itemRouter = require("./controllers/itemController");
+
+   // Middleware
+   app.use(cors());
+   app.use(express.urlencoded({ extended: false }));
+   app.use(express.json());
+
+   // Routers
+   app.get("/", (req, res) => {
+       res.json({
+           status: 200,
+           message: "Route sucessful",
+       });
+   });
+   app.use("/item", itemRouter);
+
+   app.listen(PORT, () => console.log(`Server is up and running on: ${PORT}`));
+
    ```
