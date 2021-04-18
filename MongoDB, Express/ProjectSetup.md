@@ -112,3 +112,24 @@
     MONGODBURI=<insertMongoDBConnectionhere>
     mongodb+srv://<username>:<password>@cluster0.u1tmv.mongodb.net/<databasename>?retryWrites=true&w=majority
    ```
+
+#### Model and Seeding
+
+1. Example model schema:
+
+   ```
+    const mongoose = require("../db/connection");
+    const Schema = mongoose.Schema;
+
+    const itemSchema = new Schema({
+        name: String,
+        type: String,
+        quantity: Number,
+        loggedDate: Date,
+        obtainedDate: Date,
+        lastCheckedDate: Date,
+    });
+
+    const ItemModel = mongoose.model("Item", itemSchema);
+    module.exports = ItemModel;
+   ```
