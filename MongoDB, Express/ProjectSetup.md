@@ -26,7 +26,7 @@
     app.use(express.json());
     ```
 
-6.  Create `.gitignore` and `.env` files. In `.gitignore`
+6.  Create `.gitignore` and `.env` files in root folder. In `.gitignore`
 
     ```
     node_modules
@@ -82,3 +82,26 @@
 
 10. Run `npm start`
 11. Visit default route on a browser via `localhost:4000` to test.
+
+#### Connection
+
+1. `npm i mongoose`
+2. Create folder named `db` in root folder and create a `connection.js` file
+3. Add code below:
+
+   ```
+   require("dotenv").config();
+
+   const mongoose = require("mongoose");
+   const DB = mongoose.connection;
+   const { MONGODBURI } = process.env;
+   const config = { useUnifiedTopology: true, useNewUrlParser: true };
+
+   mongoose.connect(MONGODBURI, config);
+
+   DB.on("open", () => console.log("You are connected to Mongo"))
+   .on("close", () => console.log("You are disconnected to Mongo"))
+   .on("error", (err) => console.log(err));
+
+   module.exports = mongoose;
+   ```
