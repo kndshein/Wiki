@@ -8,7 +8,10 @@ const files = scripts.getFiles
 return files
     .sort()
     .map((file) => {
-      const splitFile = file.replace(/([a-z])([A-Z])/g, "$1 $2");
+      const splitFile = file.replace(
+        /([^\p{L}\d]+|(?<=\p{L})(?=\d)|(?<=\d)(?=\p{L})|(?<=[\p{Ll}\d])(?=\p{Lu})|(?<=\p{Lu})(?=\p{Lu}\p{Ll})|(?<=[\p{L}\d])(?=\p{Lu}\p{Ll}))/gu,
+        " "
+      );
 
       const output =
         splitFile[0].toUpperCase() +

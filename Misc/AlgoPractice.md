@@ -8,7 +8,7 @@
 - [K Unique String](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/kUniqueString.js)
 - [Length Of Longest Balanced Subsequence](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/lengthOfLongestBalancedSubsequence.js)
 - [Lone Integer](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/loneInteger.js)
-- [Matrix Rotate90Counter Clockwise](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/matrixRotate90CounterClockwise.js)
+- [Matrix Rotate 90 Counter Clockwise](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/matrixRotate90CounterClockwise.js)
 - [N Lexicographic Integers](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/nLexicographicIntegers.js)
 - [Palindrome Linked List](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/palindromeLinkedList.js)
 - [Palindromic Anagram](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/palindromicAnagram.js)

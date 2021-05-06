@@ -23,7 +23,10 @@ console.log(
   files
     .sort()
     .map((file) => {
-      const splitFile = file.replace(/([a-z0-9])([A-Z])/g, "$1 $2");
+      const splitFile = file.replace(
+        /([^\p{L}\d]+|(?<=\p{L})(?=\d)|(?<=\d)(?=\p{L})|(?<=[\p{Ll}\d])(?=\p{Lu})|(?<=\p{Lu})(?=\p{Lu}\p{Ll})|(?<=[\p{L}\d])(?=\p{Lu}\p{Ll}))/gu,
+        " "
+      );
       const output =
         splitFile.substr(0, 0) +
         file.charAt(0).toUpperCase() +
