@@ -2,22 +2,22 @@
 
 #### Javascript
 
-- [Algo Template](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/algoTemplate.js)
-- [Ancient Astronaut Theory](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/ancientAstronautTheory.js)
-- [Char Count](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/charCount.js)
-- [K Unique String](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/kUniqueString.js)
-- [Length Of Longest Balanced Subsequence](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/lengthOfLongestBalancedSubsequence.js)
-- [Lone Integer](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/loneInteger.js)
-- [Matrix Rotate 90 Counter Clockwise](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/matrixRotate90CounterClockwise.js)
-- [N Lexicographic Integers](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/nLexicographicIntegers.js)
-- [Palindrome Linked List](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/palindromeLinkedList.js)
-- [Palindromic Anagram](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/palindromicAnagram.js)
-- [Reverse String](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/reverseString.js)
-- [Roman Numeral To Integer](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/romanNumeralToInteger.js)
-- [Unidirectional Word Search](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/unidirectionalWordSearch.js)
-- [Unique Character Substrings](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/uniqueCharacterSubstrings.js)
-- [Unique Occurences](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/uniqueOccurences.js)
-- [Vowel Count](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/vowelCount.js)
+1. [Algo Template](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/algoTemplate.js)
+1. [Ancient Astronaut Theory](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/ancientAstronautTheory.js)
+1. [Char Count](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/charCount.js)
+1. [K Unique String](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/kUniqueString.js)
+1. [Length Of Longest Balanced Subsequence](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/lengthOfLongestBalancedSubsequence.js)
+1. [Lone Integer](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/loneInteger.js)
+1. [Matrix Rotate 90 Counter Clockwise](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/matrixRotate90CounterClockwise.js)
+1. [N Lexicographic Integers](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/nLexicographicIntegers.js)
+1. [Palindrome Linked List](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/palindromeLinkedList.js)
+1. [Palindromic Anagram](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/palindromicAnagram.js)
+1. [Reverse String](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/reverseString.js)
+1. [Roman Numeral To Integer](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/romanNumeralToInteger.js)
+1. [Unidirectional Word Search](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/unidirectionalWordSearch.js)
+1. [Unique Character Substrings](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/uniqueCharacterSubstrings.js)
+1. [Unique Occurences](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/uniqueOccurences.js)
+1. [Vowel Count](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/vowelCount.js)
 
 #### Ruby
 
