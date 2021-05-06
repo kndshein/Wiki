@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "mmarkdown": "^1.0.0"
+  },
+  "mmarkdown": {
+    "src": "./AlgoPractice/AlgoPracticeSRC.md",
+    "out": "./AlgoPractice.md"
+  }
+}
