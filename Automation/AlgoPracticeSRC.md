@@ -39,7 +39,7 @@ return files
         splitFile[0].toUpperCase() +
         splitFile.substr(1, splitFile.length - 4);
 
-      return `1. [${output}](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/${file})`;
+      return `1. [${output}](https://github.com/kndshein/AlgorithmPractice/blob/main/Ruby/${file})`;
     })
     .join("\n")
 ```
