@@ -1,6 +1,8 @@
 const fileSystem = require("fs");
-const files = fileSystem.readdirSync("../AlgorithmPractice/JavaScript");
+const jSFiles = fileSystem.readdirSync("../AlgorithmPractice/JavaScript");
+const rubyFiles = fileSystem.readdirSync("../AlgorithmPractice/Ruby");
 
 module.exports = {
-  getFiles: files,
+  getJS: jSFiles,
+  getRuby: rubyFiles,
 };

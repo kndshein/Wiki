@@ -21,6 +21,8 @@
 
 #### Ruby
 
-- [Count Duplicates in Object](https://github.com/kndshein/AlgorithmPractice/blob/main/Ruby/countDupesinObject.rb)
-- [Most Vowel](https://github.com/kndshein/AlgorithmPractice/blob/main/Ruby/mostVowel.rb)
-- [Caesar Cipher](https://github.com/kndshein/AlgorithmPractice/blob/main/Ruby/caesarCipher.rb)
+1. [Algo Template](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/algoTemplate.rb)
+1. [Caesar Cipher](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/caesarCipher.rb)
+1. [Count Dupesin Object](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/countDupesinObject.rb)
+1. [Most Vowel](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/mostVowel.rb)
+
