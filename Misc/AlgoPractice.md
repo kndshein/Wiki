@@ -23,4 +23,3 @@
 1. [Caesar Cipher](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/caesarCipher.rb)
 1. [Count Dupesin Object](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/countDupesinObject.rb)
 1. [Most Vowel](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/mostVowel.rb)
-

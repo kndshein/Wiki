@@ -3,8 +3,8 @@
     "mmarkdown": "^1.0.0"
   },
   "mmarkdown": {
-    "src": "./AlgoPractice/AlgoPracticeSRC.md",
+    "src": "./Automation/AlgoPracticeSRC.md",
     "out": "./Misc/AlgoPractice.md",
-    "scripts": "./AlgoPractice/AlgoPracticeSRC.js"
+    "scripts": "./Automation/AlgoPracticeSRC.js"
   }
 }
