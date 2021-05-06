@@ -4,7 +4,7 @@
   },
   "mmarkdown": {
     "src": "./AlgoPractice/AlgoPracticeSRC.md",
-    "out": "./AlgoPractice.md",
+    "out": "./Misc/AlgoPractice.md",
     "scripts": "./AlgoPractice/AlgoPracticeSRC.js"
   }
 }
