@@ -2,7 +2,6 @@
 
 #### Javascript
 
-1. [Algo Template](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/algoTemplate.js)
 1. [Ancient Astronaut Theory](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/ancientAstronautTheory.js)
 1. [Char Count](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/charCount.js)
 1. [K Unique String](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/kUniqueString.js)
@@ -21,7 +20,6 @@
 
 #### Ruby
 
-1. [Algo Template](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/algoTemplate.rb)
 1. [Caesar Cipher](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/caesarCipher.rb)
 1. [Count Dupesin Object](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/countDupesinObject.rb)
 1. [Most Vowel](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/mostVowel.rb)
