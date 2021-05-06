@@ -3,17 +3,14 @@
 #### Javascript
 
 ```mmd
-let algos = {
-  vowelCount: "Vowel Count",
-  charCount: "Character Count",
-  reverseString: "Reverse String",
-};
+const files = scripts.getFiles
 
-return Object.keys(algos)
+return files
   .sort()
   .map(
     (file) =>
-      `- [${algos[file]}](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/${file}.js)`
+      `- [${file[0].toUpperCase() +
+      file.slice(1, file.length - 3).replace(/([a-z])([A-Z])/g, "$1 $2")}](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/${file})`
   )
   .join("\n");
 ```
