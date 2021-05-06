@@ -12,16 +12,14 @@ let algos = {
   reverseString: "Reverse String",
 };
 
-let fileNames = Object.keys(algos).sort();
+return Object.keys(algos)
+  .sort()
+  .map(
+    (file) =>
+      `- [${algos[file]}](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/${file}.js)`
+  )
+  .join("\n");
 
-// fileNames.map((file) => console.log(makeFile(file)));
-
-for (let file of fileNames) {
-  console.log(makeFile(file));
-}
-
-function makeFile(string) {
-  return `- [${algos[string]}](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/${string}.js)`;
-}
-
-console.log(fileNames);
+// function makeFile(string) {
+//   return `- [${algos[string]}](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/${string}.js)`;
+// }

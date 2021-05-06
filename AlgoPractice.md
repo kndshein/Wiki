@@ -2,21 +2,9 @@
 
 #### Javascript
 
-```mmd
-let algos = {
-  vowelCount: "Vowel Count",
-  charCount: "Character Count",
-  reverseString: "Reverse String",
-};
-
-return Object.keys(algos)
-  .sort()
-  .map(
-    (file) =>
-      `- [${algos[file]}](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/${file}.js)`
-  )
-  .join("\n");
-```
+- [Character Count](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/charCount.js)
+- [Reverse String](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/reverseString.js)
+- [Vowel Count](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/vowelCount.js)
 
 #### Ruby
 
