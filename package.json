@@ -8,6 +8,6 @@
     "scripts": "./Automation/AlgoPracticeSRC.js"
   },
   "scripts": {
-    "mdcommit": "func() { git add . && git commit -m \"Generated mmarkdown\"; }; yarn mmarkdown && func"
+    "mdpush": "func() { git add . && git commit -m \"Generated mmarkdown\" && git push origin main; }; yarn mmarkdown && func"
   }
 }
