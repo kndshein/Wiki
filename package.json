@@ -6,5 +6,8 @@
     "src": "./Automation/AlgoPracticeSRC.md",
     "out": "./Misc/AlgoPractice.md",
     "scripts": "./Automation/AlgoPracticeSRC.js"
+  },
+  "scripts": {
+    "mdcommit": "func() { git add . && git commit -m \"Generated mmarkdown\"; }; func"
   }
 }
