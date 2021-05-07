@@ -17,7 +17,7 @@
 1. [Packing Boxes](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/packingBoxes.js)
 1. [Palindrome Linked List](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/palindromeLinkedList.js)
 1. [Palindromic Anagram](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/palindromicAnagram.js)
-1. [Removing Parenthese](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/removingParenthese.js)
+1. [Removing Parentheses](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/removingParentheses.js)
 1. [Reverse String](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/reverseString.js)
 1. [Roman Numeral To Integer](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/romanNumeralToInteger.js)
 1. [Unidirectional Word Search](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/unidirectionalWordSearch.js)
