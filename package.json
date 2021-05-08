@@ -1,4 +1,6 @@
 {
+  "license": "UNLICENSED",
+  "private": true,
   "dependencies": {
     "mmarkdown": "^1.0.0"
   },
