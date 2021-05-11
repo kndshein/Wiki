@@ -21,7 +21,7 @@
 1. [Consecutive Ones](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/consecutiveOnes.js)
 1. [Count Next Element](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/countNextElement.js)
 1. [Detect Voter Fraud](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/detectVoterFraud.js)
-1. [Equivalent Value Frequency](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/equivalentValue&Frequency.js)
+1. [Equivalent Value And Frequency](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/equivalentValueAndFrequency.js)
 1. [K Unique String](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/kUniqueString.js)
 1. [Length Of Longest Balanced Subsequence](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/lengthOfLongestBalancedSubsequence.js)
 1. [Lone Integer](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/loneInteger.js)
