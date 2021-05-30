@@ -51,10 +51,13 @@
 1. [Removing Parentheses](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/removingParentheses.js)
 1. [Reverse String](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/reverseString.js)
 1. [Roman Numeral To Integer](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/romanNumeralToInteger.js)
+1. [Rotate By 90 Degrees Counter Clockwise](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/rotateBy90DegreesCounter-Clockwise.js)
+1. [Sentence Reversal](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/sentenceReversal.js)
 1. [Unidirectional Word Search](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/unidirectionalWordSearch.js)
 1. [Unique Character Substrings](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/uniqueCharacterSubstrings.js)
 1. [Unique Occurences](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/uniqueOccurences.js)
 1. [Vowel Count](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/vowelCount.js)
+1. [Zero Matrix](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/zeroMatrix.js)
 
 #### Ruby
 
