@@ -8,6 +8,14 @@
 3. Check the box then press `OK`
 4. Once the installation is done, `Restart Now`
 
-<!-- #### Installing Ubuntu
+#### Installing Ubuntu
 
-1. Once the PC has been restarted, in -->
+1. Once the PC has been restarted, open `Microsoft Store`
+2. In Microsoft Store, search for Ubuntu
+3. Choose your desired Linux OS, for this tutorial, Ubuntu will be used
+4. `Get` and `Install` Linux
+5. Voila!
+
+<!-- ## Packages
+
+1.  -->
