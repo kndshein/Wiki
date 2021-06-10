@@ -17,14 +17,15 @@
 9. Browse for the downloaded ISO > OK
 10. Turn on Virtual Machine
 
-#### [Install Xubuntu](http://www.fixedbyvonnie.com/2015/07/how-to-setup-virtualbox-in-windows/)
+#### [Installing Xubuntu](http://www.fixedbyvonnie.com/2015/07/how-to-setup-virtualbox-in-windows/)
 
+1. After the previous step, you should be at Xubuntu installation process.
 1. "Install Xubuntu"
-2. "Download updates while installing Xubuntu", leave "Install third-party software for..." unchecked
-3. "Erase disk and install Xubuntu"
-4. Enter credentials
-5. Prompt to restart the "computer"
-6. Prompt to press enter after removing medium - just press enter
+1. "Download updates while installing Xubuntu", leave "Install third-party software for..." unchecked
+1. "Erase disk and install Xubuntu"
+1. Enter credentials
+1. Prompt to restart the "computer"
+1. Prompt to press enter after removing medium - just press enter
 
 #### [Set Up Xubuntu](http://www.fixedbyvonnie.com/2015/07/how-to-setup-xubuntu-linux-in-virtualbox-step-by-step/)
 
@@ -55,9 +56,9 @@
 
 #### [Git SSH Keys](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-1. Open Git Bash
+1. Open Terminal
 2. `cd ~`
-3. `ssh-keygen -t ed25519 -C "your_email@example.com"`
+3. Type in Terminal: `ssh-keygen -t ed25519 -C "your_email@example.com"` with your email.
 4. Enter to continue with the default directory
 5. (Optional) Passphrase - press Enter for no passphrase
 6. `cd .ssh` or wherever the SSH Key is stored
