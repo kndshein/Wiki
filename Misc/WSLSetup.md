@@ -16,6 +16,23 @@
 4. `Get` and `Install` Linux
 5. Voila!
 
-<!-- ## Packages
+## Packages
 
-1. -->
+#### nvm and npm
+
+1. Open `cmd` on Windows
+2. `bash`
+3. `curl -o- https://raw.githubusercontent.com/creationix/nvm/<latest version here>/install.sh | bash` with the latest version in `<latest version here>` (i.e. `v0.33.11`)
+4. Restart the terminal: `cmd` then `bash`
+5. `nvm install node`
+6. Restart the terminal: `cmd` then `bash`
+7. Check if `nvm` is properly installed using `nvm -v`
+8. Check if `npm` is properly installed using `npm -v`
+
+#### yarn
+
+1. Open `cmd` on Windows
+2. `bash`
+3. `curl -o- -L https://yarnpkg.com/install.sh | bash`
+4. Restart the terminal: `cmd` then `bash`
+5. Check if properly installed using `yarn --version`
