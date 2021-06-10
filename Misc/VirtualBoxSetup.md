@@ -49,8 +49,8 @@
 
 #### Git Configs
 
-- `git config --global user.name "<Name Here>"
-- `git config --global user.email "<email@email.com>"
+- `git config --global user.name "<Name Here>"`
+- `git config --global user.email "<email@email.com>"`
 - (optional) `git config --global init.defaultBranch main`
 - `git config --list --show-origin` to list the configs
 
