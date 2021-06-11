@@ -41,32 +41,6 @@
 10. In VirtualBox Menu > Devices > Shared Clipboard > Bidirectional
 11. Shut down Xubuntu and adjust Processor and Video Memory in VirtualBox > Settings > System
 
-## Git Shit
-
-#### Install git
-
-- `sudo apt install git`
-
-#### Git Configs
-
-- `git config --global user.name "<Name Here>"`
-- `git config --global user.email "<email@email.com>"`
-- (optional) `git config --global init.defaultBranch main`
-- `git config --list --show-origin` to list the configs
-
-#### [Git SSH Keys](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-
-1. Open Terminal
-2. `cd ~`
-3. Type in Terminal: `ssh-keygen -t ed25519 -C "<your_email@example.com>"` with your email.
-4. Enter to continue with the default directory
-5. (Optional) Passphrase - press Enter for no passphrase
-6. `cd .ssh` or wherever the SSH Key is stored
-7. `ls` > `cat <ssh filename>.pub`
-8. Copy the generated code in its entirety
-9. Go to [Github](https://www.github.com) > Settings > SSH and GPG keys > New SSH Key
-10. Paste the code > Add SSH Key
-
 ## Node.js and npm
 
 1. `sudo apt update`
@@ -74,6 +48,10 @@
 3. `sudo apt install npm`
 4. `nodejs -v` to check if node.js was installed and to see its version
 5. `npm -v` to check if npm was installed and to see its version
+
+## [Set Up Git](https://github.com/kndshein/Wiki/blob/main/Misc/PostSetup.md#git-shit)
+
+## [Set Up VSCode](https://github.com/kndshein/Wiki/blob/main/Misc/PostSetup.md#vscode)
 
 ## (Optional) Theme for a Cyberpunk look
 

@@ -36,3 +36,7 @@
 3. `curl -o- -L https://yarnpkg.com/install.sh | bash`
 4. Restart the terminal: `cmd` then `bash`
 5. Check if properly installed using `yarn --version`
+
+## [Set Up Git](https://github.com/kndshein/Wiki/blob/main/Misc/PostSetup.md#git-shit)
+
+## [Set Up VSCode](https://github.com/kndshein/Wiki/blob/main/Misc/PostSetup.md#vscode)
