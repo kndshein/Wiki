@@ -75,24 +75,6 @@
 4. `nodejs -v` to check if node.js was installed and to see its version
 5. `npm -v` to check if npm was installed and to see its version
 
-## VSCode
-
-#### [Install VSCode](https://code.visualstudio.com/)
-
-#### VSCode Settings & Extensions
-
-- In VSCode > Manage > Settings > Search "wrap" > Editor: Word Wrap to "on"
-- **Auto Close Tag** by Jun Han
-- **Auto Rename Tag** by Jun Han
-- **Better Comments** by Aaron Bond
-- **Bracket Pair Colorizer 2** by CoenraadS
-- **Live Server** by Ritwick Dey
-- **Markdown Preview Github Styling** by Matt Bierner
-- **Prettier** by Prettier
-  - Manage > Settings > Search "Formatter" > Editor: Default Formatter to "esbenp.prettier-vscode"
-  - Manage > Settings > Search "Format on Save" > Check the box
-- **WASDMap** by Michael Romer
-
 ## (Optional) Theme for a Cyberpunk look
 
 #### GNOME Themes
