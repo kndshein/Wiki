@@ -23,6 +23,8 @@
 8. Copy the generated code in its entirety
 9. Go to [Github](https://www.github.com) > Settings > SSH and GPG keys > New SSH Key
 10. Paste the code > Add SSH Key
+11. In the terminal: `ssh -T git@github.com` to check and see if it worked
+    - should get "Hi `<Your Name>`! You've successfully authenticated, but GitHub does not provide shell access."
 
 ## VSCode
 
