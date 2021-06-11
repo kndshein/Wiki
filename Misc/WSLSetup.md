@@ -19,7 +19,7 @@
 3. Choose your desired Linux OS, for this tutorial, Ubuntu will be used
 4. `Get` and `Install`
 5. Run `PowerShell` once again, and type in `wsl --list --verbose` to check if Ubuntu has been properly installed along with its WSL version number
-6. Voila
+6. Voila!
 
 ## Packages
 
@@ -27,7 +27,7 @@
 
 1. Open `cmd` on Windows
 2. `bash`
-3. `curl -o- https://raw.githubusercontent.com/creationix/nvm/<latest version here>/install.sh | bash` with the latest version in `<latest version here>` (i.e. `v0.33.11`)
+3. `curl -o- https://raw.githubusercontent.com/creationix/nvm/<latest version here>/install.sh | bash` with the [latest version](https://github.com/nvm-sh/nvm/releases) in `<latest version here>` (i.e. `v0.33.11`)
 4. Restart the terminal: `cmd` then `bash`
 5. `nvm install node`
 6. Restart the terminal: `cmd` then `bash`
