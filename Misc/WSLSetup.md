@@ -25,14 +25,13 @@
 
 #### nvm and npm
 
-1. Open `cmd` on Windows
-2. `bash`
-3. `curl -o- https://raw.githubusercontent.com/creationix/nvm/<latest version here>/install.sh | bash` with the [latest version](https://github.com/nvm-sh/nvm/releases) in `<latest version here>` (i.e. `v0.33.11`)
-4. Restart the terminal: `cmd` then `bash`
+1. In Windows search bar: `ubuntu`
+2. `curl -o- https://raw.githubusercontent.com/creationix/nvm/<latest version here>/install.sh | bash` with the [latest version](https://github.com/nvm-sh/nvm/releases) in `<latest version here>` (i.e. `v0.33.11`)
+3. Restart the terminal: `cmd` then `bash`
+4. Check if `nvm` is properly installed using `nvm -v`
 5. `nvm install node`
 6. Restart the terminal: `cmd` then `bash`
-7. Check if `nvm` is properly installed using `nvm -v`
-8. Check if `npm` is properly installed using `npm -v`
+7. Check if `npm` is properly installed using `npm -v`
 
 #### yarn
 
@@ -40,7 +39,7 @@
 2. `bash`
 3. `curl -o- -L https://yarnpkg.com/install.sh | bash`
 4. Restart the terminal: `cmd` then `bash`
-5. Check if properly installed using `yarn --version`
+5. Check if properly installed using `yarn -v`
 
 ## [Git](https://github.com/kndshein/Wiki/blob/main/Misc/PostSetup.md#git-shit)
 
