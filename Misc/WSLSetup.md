@@ -36,3 +36,26 @@
 3. `curl -o- -L https://yarnpkg.com/install.sh | bash`
 4. Restart the terminal: `cmd` then `bash`
 5. Check if properly installed using `yarn --version`
+
+## Git Shit
+
+#### Git Configs
+
+- `git config --global user.name "<Name Here>"`
+- `git config --global user.email "<email@email.com>"`
+- (optional) `git config --global init.defaultBranch main`
+- `git config --list --show-origin` to list the configs
+  - `git config --global --unset <user.name, user.email>` to remove git config
+
+#### [Git SSH Keys](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+1. Open Terminal
+2. `cd ~`
+3. Type in Terminal: `ssh-keygen -t ed25519 -C "<your_email@example.com>"` with your email.
+4. Enter to continue with the default directory
+5. (Optional) Passphrase - press Enter for no passphrase
+6. `cd .ssh` or wherever the SSH Key is stored
+7. `ls` > `cat <ssh filename>.pub`
+8. Copy the generated code in its entirety
+9. Go to [Github](https://www.github.com) > Settings > SSH and GPG keys > New SSH Key
+10. Paste the code > Add SSH Key

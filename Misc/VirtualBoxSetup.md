@@ -58,7 +58,7 @@
 
 1. Open Terminal
 2. `cd ~`
-3. Type in Terminal: `ssh-keygen -t ed25519 -C "your_email@example.com"` with your email.
+3. Type in Terminal: `ssh-keygen -t ed25519 -C "<your_email@example.com>"` with your email.
 4. Enter to continue with the default directory
 5. (Optional) Passphrase - press Enter for no passphrase
 6. `cd .ssh` or wherever the SSH Key is stored
