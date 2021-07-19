@@ -17,9 +17,10 @@
 1. Open `Microsoft Store`
 2. In Microsoft Store, search for Ubuntu
 3. Choose your desired Linux OS, for this tutorial, Ubuntu will be used
-4. `Get` and `Install`
-5. Run `PowerShell` once again, and type in `wsl --list --verbose` to check if Ubuntu has been properly installed along with its WSL version number
-6. Voila!
+4. Install Ubuntu
+5. Run `PowerShell` once again, and type in `wsl --l --v` to check if Ubuntu has been properly installed along with its WSL version number
+6. (Optional) Right click on the terminal > `Properties` > Check `Use Ctrl + Shift + C / V as Copy / Paste`
+7. Voila!
 
 ## Packages
 
@@ -27,19 +28,17 @@
 
 1. In Windows search bar: `ubuntu`
 2. `curl -o- https://raw.githubusercontent.com/creationix/nvm/<latest version here>/install.sh | bash` with the [latest version](https://github.com/nvm-sh/nvm/releases) in `<latest version here>` (i.e. `v0.33.11`)
-3. Restart the terminal: `cmd` then `bash`
+3. Restart the terminal.
 4. Check if `nvm` is properly installed using `nvm -v`
 5. `nvm install node`
-6. Restart the terminal: `cmd` then `bash`
-7. Check if `npm` is properly installed using `npm -v`
+6. Check if `npm` is properly installed using `npm -v`
 
 #### yarn
 
 1. Open `cmd` on Windows
 2. `bash`
 3. `curl -o- -L https://yarnpkg.com/install.sh | bash`
-4. Restart the terminal: `cmd` then `bash`
-5. Check if properly installed using `yarn -v`
+4. Check if properly installed using `yarn -v`
 
 ## [Git](https://github.com/kndshein/Wiki/blob/main/Misc/PostSetup.md#git-shit)
 
