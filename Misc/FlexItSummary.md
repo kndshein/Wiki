@@ -20,7 +20,7 @@
 1.  <details>
     <summary>8/18/2021</summary>
 
-        1. AccuWeather Widget
+        1. AccuWeather widget
             - Rebuilt widget component to mock-up specifications
             - Added toggle so users can switch between Fahrenheit and Celcius
             - Added additional logic for background images to encompass weather status
@@ -29,5 +29,38 @@
             - Added logic so temperature now automatically defaults to user's location unit of measurement.
             - Added logic for Air Quality Icon to change color based on value
             - Created a temporary card to display additional information about Air Quality
+
+    </details>
+
+1.  <details>
+    <summary>8/19/2021</summary>
+
+        1. AccuWeather widget
+            - Refactor pop up card to UI specification from Maria
+            - Make said pop up responsive to desktop/tablet viewports
+            - Built mobile widget
+            - Make said mobile widget responsive
+            - Fix a bug that was causing issues with temperature toggle between mobile and desktop widgets
+        2. Microinteractions in My Account -- Buttons Edition
+            - Cleaned up existing button code
+            - Added hover and active effects
+            - Made additional active effects for feedback from Maria
+        3. Misc.
+            - Fixed padding and margin in My Account page for a tidier look
+
+    </details>
+
+1.  <details>
+    <summary>8/20/2021</summary>
+
+        1. Microinteractions - Buttons
+            - Finalized hover and active states in My Account page
+            - Made a toggle for Notifications subscription along with logic for UX
+        2. My Account page
+            - Refactor Change Password User flow
+            - Added alert cards for Notifications and User Preferences sections
+        3. Progress bar
+            - Refactored and cleaned up existing code for readability and performance
+            - Started the styling process to match UI specifications sent over by the design team
 
     </details>
