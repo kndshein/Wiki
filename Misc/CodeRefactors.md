@@ -163,9 +163,9 @@
     	let birthdayListArray = [], birthValue;
 
     	$birthdayList.each(function(){
-    		let current = $(this)[0].value;
-            current < 10 ? current = "0" + current : current;
-    		birthdayListArray.push(current);
+    	    let current = $(this)[0].value;
+            if(current < 10) current = "0" + current;
+    	    birthdayListArray.push(current);
     	})
 
     	birthValue = birthdayListArray.join("-");
