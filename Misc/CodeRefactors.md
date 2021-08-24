@@ -1,6 +1,69 @@
 ## Code Refactors
 
 1.  <details>
+    <summary>Sort function</summary>
+
+    ```
+    if(option_id == 'alphabetical') {
+        var alpharows = $rows.sort(function (a, b) {
+            return ($(a).find(".task-client-name").val() > $(b).find(".task-client-name").val())? 1 : -1;
+        });
+        $current.html(alpharows);
+    }
+    else if(option_id == 'reversealphabetical') {
+        var rev_alpharows = $rows.sort(function (a, b) {
+            return ($(a).find(".task-client-name").val() > $(b).find(".task-client-name").val())? -1 : 1;
+        });
+        $current.html(rev_alpharows);
+    }
+    else if(option_id == 'created') {
+        var created = $rows.sort(function (a, b) {
+            return ($(a).find(".task-created-date").val() > $(b).find(".task-created-date").val())? 1 : -1;
+        });
+        $current.html(created);
+    }
+    else if(option_id == 'reversecreated') {
+        var rev_created = $rows.sort(function (a, b) {
+            return ($(a).find(".task-created-date").val() > $(b).find(".task-created-date").val())? -1 : 1;
+        });
+        $current.html(rev_created);
+    }
+    else if(option_id == 'updated') {
+        var updated = $rows.sort(function (a, b) {
+            return ($(a).find(".task-updated-date").val() > $(b).find(".task-updated-date").val())? 1 : -1;
+        });
+        $current.html(updated);
+    }
+    else if(option_id == 'reverseupdated') {
+        var rev_updated = $rows.sort(function (a, b) {
+            return ($(a).find(".task-updated-date").val() > $(b).find(".task-updated-date").val())? -1 : 1;
+        });
+        $current.html(rev_updated);
+    }
+    ```
+
+    to
+
+    ```
+    const sortObj = {
+        alphabetical: {target: ".task-client-name", reverse: false},
+        reversealphabetical: {target: ".task-client-name", reverse: true},
+        created: {target: ".task-created-date", reverse: false},
+        reversecreated: {target: ".task-created-date", reverse: true},
+        updated: {target: ".task-updated-date", reverse: false},
+        reverseupdated: {target: ".task-updated-date", reverse: true},
+    }
+
+    var sortedResult = $rows.sort(function(a,b) {
+        return ($(a).find(sortObj[option_id].target).val() > $(b).find(sortObj[option_id].target).val() ? (sortObj[option_id].reverse ? -1 : 1) : (sortObj[option_id].reverse ? 1 : -1))
+    })
+
+    $current.html(sortedResult);
+    ```
+
+    </details>
+
+1.  <details>
     <summary>Keeping track of empty input fields for progress bar</summary>
 
     ```
