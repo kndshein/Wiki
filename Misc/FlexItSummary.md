@@ -59,8 +59,25 @@
         2. My Account page
             - Refactor Change Password User flow
             - Added alert cards for Notifications and User Preferences sections
-        3. Progress bar
+        3. Progress bar in Trainer's account
             - Refactored and cleaned up existing code for readability and performance
             - Started the styling process to match UI specifications sent over by the design team
+
+    </details>
+
+1.  <details>
+    <summary>8/23/2021</summary>
+
+        1. Progress bar in Trainer's account
+            - Refactored code to fit new design
+            - Make the progress bar responsive for all viewports
+        2. Microinteractions - Login Page
+            a. Login, Register, and Reset Password components
+                - Remove alert pop ups
+                - Added hover, active, and focus states to the CTA buttons
+                - Aligned components per UI specifications
+            b. Added `Login failed` message above the login boxes in Login component
+            c. Restyled error messages in Register component
+            d. Slight detailed adjustments to Reset Password component
 
     </details>
