@@ -159,14 +159,12 @@
 
     ```
     $( "#saveprofilechanges" ).click(function() {
-    	$birthdayList = $("#birthday_month, #birthday_day, #birthday_year");
+        $birthdayList = $("#birthday_month, #birthday_day, #birthday_year");
     	let birthdayListArray = [], birthValue;
 
     	$birthdayList.each(function(){
     		let current = $(this)[0].value;
-    		if (current < 10){
-    			current = "0" + current;
-    		}
+            current < 10 ? current = "0" + current : current;
     		birthdayListArray.push(current);
     	})
 
