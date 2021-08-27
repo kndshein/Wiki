@@ -8,6 +8,7 @@
 1. [Anagram Checks](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/anagramChecks.js)
 1. [Ancient Astronaut Theory](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/ancientAstronautTheory.js)
 1. [Balanced Brackets](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/balancedBrackets.js)
+1. [Boggle](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/boggle.js)
 1. [Bomber Man](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/bomberMan.js)
 1. [Changing Directions](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/changingDirections.js)
 1. [Char Count](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/charCount.js)
