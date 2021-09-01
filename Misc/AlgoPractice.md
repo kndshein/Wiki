@@ -3,6 +3,7 @@
 #### Javascript
 
 1. [123 Number Flip](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/123NumberFlip.js)
+1. [Hiyaa Boi](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/HiyaaBoi.js)
 1. [A Strictly Increasing Linked List](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/aStrictlyIncreasingLinkedList.js)
 1. [A Unique String](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/aUniqueString.js)
 1. [Anagram Checks](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/anagramChecks.js)
