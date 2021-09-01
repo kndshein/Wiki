@@ -31,6 +31,7 @@
 1. [Fizz Buzz](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/fizzBuzz.js)
 1. [Flip And Invert Matrix](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/flipAndInvertMatrix.js)
 1. [Furthest From Origin](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/furthestFromOrigin.js)
+1. [Hiyaa Boi](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/hiyaaBoi.js)
 1. [Integer To Base 3](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/integerToBase3.js)
 1. [Interleaved String](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/interleavedString.js)
 1. [Intervals Intersecting At Point](https://github.com/kndshein/AlgorithmPractice/blob/main/JavaScript/intervalsIntersectingAtPoint.js)
