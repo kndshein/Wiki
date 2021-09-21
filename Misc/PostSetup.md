@@ -30,8 +30,11 @@
 
 #### [Install VSCode](https://code.visualstudio.com/)
 
+If you're using WSL, install VSCode on Windows instead of Ubuntu.
+
 #### VSCode Settings & Extensions
 
+- - (WSL) If VSCode didn't automatically prompt an installation, install **Remote Development** by Microsoft
 - In VSCode > Manage > Settings > Search "wrap" > Editor: Word Wrap to "on"
 - **Auto Close Tag** by Jun Han
 - **Auto Rename Tag** by Jun Han
