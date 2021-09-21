@@ -11,7 +11,7 @@
 #### Mini Projects
 
 1. [Hamburger Side Navigation](https://github.com/kndshein/HamburgerSideNav) - Side navigation menu (React)
-1. [Tarot Card Randomizer](https://github.com/kndshein/Tarot-Card-Randomizer) // [Deployed](https://kndshein.github.io/Tarot-Card-Randomizer/) - Generates a random Tarot card on click, and so does the produced cards (jQuery)
+1. [Tarot Card Randomizer](https://github.com/kndshein/TarotCardRandomizer) // [Deployed](https://kndshein.github.io/TarotCardRandomizer/) - Generates a random Tarot card on click, and so does the produced cards (jQuery)
 
 #### Links to-do
 
