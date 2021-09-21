@@ -60,6 +60,7 @@
 
 #### [Configure Postgres](https://tuts.alexmercedcoder.com/2021/2/linuxpostgres/)
 
+1. (WSL) `sudo service postgresql start`
 1. `sudo su postgres`
 1. `psql`
 1. `CREATE USER <YourLinuxUsername> WITH SUPERUSER PASSWORD '<YourPassword>';` (!important: make sure it's single quotes, and end the command with `;`)
