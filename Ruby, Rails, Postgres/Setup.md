@@ -70,6 +70,8 @@
 1. `psql` to check if you can access with your username
 1. `\conninfo` to validate if installation worked
 
+#### (Optional) [Setting up pgAdmin w/ WSL2](https://chloesun.medium.com/set-up-postgresql-on-wsl2-and-connect-to-postgresql-with-pgadmin-on-windows-ca7f0b7f38ab)
+
 ## Misc. Troubleshooting Commands
 
 If `bundle install` throws an error for `pg` package, run `sudo apt-get install libpq-dev`
