@@ -60,6 +60,7 @@
 
 #### [Configure Postgres](https://tuts.alexmercedcoder.com/2021/2/linuxpostgres/)
 
+1. (WSL) `sudo service postgresql start`
 1. `sudo su postgres`
 1. `psql`
 1. `CREATE USER <YourLinuxUsername> WITH SUPERUSER PASSWORD '<YourPassword>';` (!important: make sure it's single quotes, and end the command with `;`)
@@ -68,6 +69,8 @@
 1. `exit`
 1. `psql` to check if you can access with your username
 1. `\conninfo` to validate if installation worked
+
+#### (Optional) [Setting up pgAdmin w/ WSL2](https://chloesun.medium.com/set-up-postgresql-on-wsl2-and-connect-to-postgresql-with-pgadmin-on-windows-ca7f0b7f38ab)
 
 ## Misc. Troubleshooting Commands
 
