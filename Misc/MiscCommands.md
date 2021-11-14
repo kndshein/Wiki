@@ -1,14 +1,26 @@
 ## Misc. Commands
 
-* Open VSCode as superuser
+- Git Worktree
+
+```
+git worktree add <path> <branch>
+git worktree remove <path>
+```
+
+- Open VSCode as superuser
+
 ```
 sudo code --user-data-dir=~/root
 ```
-* To Kill a Mocking Port
+
+- To Kill a Mocking Port
+
 ```
 sudo kill -9 $(sudo lsof -t -i:<PORTNUMBER>)
 ```
-* Set mongodb path
+
+- Set mongodb path
+
 ```
 mongod --dbpath ~/mongodata
 ```
